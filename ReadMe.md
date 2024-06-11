@@ -55,6 +55,35 @@ docker run SignalVizTool
 - **Merge Multiple CSV Files**：合併多個 CSV 檔案為一個。
 - **Align and Merge CSV Files**：將兩個 CSV 檔案依據時間戳記對齊並合併。
 
+
+
+
+## 介面圖
+
+### 主介面 
+
+- 左側有5個功能按鍵，因支援批量處理固有進度條視覺化當前進度
+
+![螢幕擷取畫面 2024-06-11 231210](https://hackmd.io/_uploads/HyA9skLSC.png)
+
+### 時域特徵處理
+
+- 將RawData轉成時域的13個特徵
+
+![螢幕擷取畫面 2024-06-11 231258](https://hackmd.io/_uploads/rkAciyIrC.png)
+
+### 頻域特徵處理
+
+- 將RawData轉成頻域的3個特徵
+
+![螢幕擷取畫面 2024-06-11 231431](https://hackmd.io/_uploads/rk0qi18HA.png)
+
+### 支援批量繪製圖表
+
+- 可以繪製RawData先作初步觀察
+
+![螢幕擷取畫面 2024-06-11 231612](https://hackmd.io/_uploads/SyJijk8BR.png)
+
 ## 目錄結構
 
 ```
