@@ -1,0 +1,36 @@
+name: SignalVizTool
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2024.6.2=h56e8100_0
+  - conda-pack=0.7.1=pyhd8ed1ab_0
+  - openssl=3.3.1=h2466b09_0
+  - pip=24.0=py39haa95532_0
+  - python=3.9.19=h1aa4202_1
+  - setuptools=69.5.1=py39haa95532_0
+  - sqlite=3.45.3=h2bbff1b_0
+  - ucrt=10.0.22621.0=h57928b3_0
+  - vc=14.2=h2eaa2aa_1
+  - vc14_runtime=14.40.33810=ha82c5b3_20
+  - vs2015_runtime=14.40.33810=h3bf8584_20
+  - wheel=0.43.0=py39haa95532_0
+  - pip:
+      - contourpy==1.2.1
+      - cycler==0.12.1
+      - fonttools==4.53.0
+      - importlib-resources==6.4.0
+      - kiwisolver==1.4.5
+      - matplotlib==3.9.0
+      - numpy==1.26.4
+      - packaging==24.1
+      - pandas==2.2.2
+      - pillow==10.3.0
+      - pyparsing==3.1.2
+      - python-dateutil==2.9.0.post0
+      - pytz==2024.1
+      - scipy==1.13.1
+      - six==1.16.0
+      - tzdata==2024.1
+      - zipp==3.19.2
+prefix: C:\Users\user\anaconda3\envs\SignalVizTool
