@@ -57,17 +57,18 @@ docker run SignalVizTool
 
 ## 目錄結構
 
+```
 SignalVizTool/
 │
-├── SignalVizTool.py # 主程式
+├── SignalVizTool.py               # 主程式
 ├── SignalVizTool_Environment.yaml # 環境設定檔
 ├── SignalVizTool_Requirements.txt # 環境設定檔
-├── ReadMe.md # 專案說明文件
-├── EduCatCode.ico # 應用程式圖標
-├── data/ # 範例數據資料夾
-├── scripts/ # 輔助腳本資料夾
-└── results/ # 處理結果存放資料夾
-
+├── ReadMe.md                      # 專案說明文件
+├── EduCatCode.ico                 # 應用程式圖標
+├── data/                          # 範例數據資料夾
+├── scripts/                       # 輔助腳本資料夾
+└── results/                       # 處理結果存放資料夾
+```
 
 
 
