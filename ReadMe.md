@@ -14,7 +14,7 @@ Educatcode SignalViz Tool 是一個用於訊號處理與視覺化的圖形使用
 
 - 方法1: 使用 Anaconda yml檔案建置
 ```bash =
-conda env create -f SignalVizTool_Environment.yml
+conda env create -f SignalVizTool_Environment.yaml
 ```
 
 - 方法2: 使用 PyPI requirements建置
