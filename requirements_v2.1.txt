@@ -1,0 +1,85 @@
+# SignalVizTool v2.1 Requirements
+# Professional Signal Analysis with AI & Advanced Features
+
+# ============================================
+# CORE DEPENDENCIES (v2.0)
+# ============================================
+
+# Numerical computing
+numpy>=1.26.4
+
+# Data manipulation
+pandas>=2.2.2
+
+# Visualization (static)
+matplotlib>=3.9.0
+seaborn>=0.13.0  # For beautiful statistical plots
+
+# Signal processing
+scipy>=1.13.1
+
+# Configuration management
+pyyaml>=6.0
+
+# Date/time handling
+python-dateutil>=2.9.0
+
+# ============================================
+# NEW IN v2.1 - ADVANCED ANALYSIS
+# ============================================
+
+# Wavelet analysis
+PyWavelets>=1.5.0
+
+# Machine Learning & AI
+scikit-learn>=1.4.0
+joblib>=1.3.0  # For model persistence
+
+# ============================================
+# NEW IN v2.1 - MODERN VISUALIZATION
+# ============================================
+
+# Interactive plots
+plotly>=5.18.0
+kaleido>=0.2.1  # For static image export from Plotly
+
+# Real-time plotting (optional but recommended)
+pyqtgraph>=0.13.3
+
+# ============================================
+# OPTIONAL: MODERN UI (PyQt6)
+# ============================================
+# Uncomment if implementing PyQt6 interface
+
+# PyQt6>=6.6.0
+# PyQt6-WebEngine>=6.6.0  # For embedded web views
+
+# ============================================
+# DEVELOPMENT DEPENDENCIES (Optional)
+# ============================================
+
+# Testing
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+
+# Code quality
+# pylint>=3.0.0
+# black>=23.0.0
+# mypy>=1.7.0
+
+# ============================================
+# NOTES
+# ============================================
+
+# Minimum Python version: 3.8
+# Recommended Python version: 3.11+
+
+# Installation:
+#   pip install -r requirements_v2.1.txt
+
+# For GPU-accelerated ML (optional):
+#   pip install scikit-learn[gpu]
+
+# For full feature set including UI:
+#   pip install -r requirements_v2.1.txt
+#   pip install PyQt6 PyQt6-WebEngine
